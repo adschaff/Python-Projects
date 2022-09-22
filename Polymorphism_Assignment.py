@@ -14,11 +14,11 @@ class Main_HighSchool:
     Login_Type = "admin"
     email = "admin@admin.com"
 
-       def getLoginInfo(self):
+    def getLoginInfo(self):
         entry_email = input("Enter your email:")
         entry_type = input("Enter your role:")
         if (entry_email == self.email and entry_type == admin):
-            print("Welcome into the admin portal!"))
+            print("Welcome into the admin portal!")
         else:
             print("You are not allowed entry.")
 
@@ -30,11 +30,11 @@ class Student(Main_HighSchool):
     Student_Login = "student"
     
      
-       def getLoginInfo(self):
+    def getLoginInfo(self):
         entry_email = input("Enter your email:")
         entry_type = input("Enter your role:")
         if (entry_email == self.email and entry_type == Student_Login):
-            print("Welcome into the student portal!"))
+            print("Welcome into the student portal!")
         else:
             print("You are not allowed entry.")
 
@@ -46,11 +46,11 @@ class Teacher(Main_HighSchool):
     Teacher_Login = "student"
     
      
-       def getLoginInfo(self):
+    def getLoginInfo(self):
         entry_email = input("Enter your email:")
         entry_type = input("Enter your role:")
         if (entry_email == self.email and entry_type == Teacher_Login):
-            print("Welcome into the Teacher portal!"))
+            print("Welcome into the Teacher portal!")
         else:
             print("You are not allowed entry.")
 
