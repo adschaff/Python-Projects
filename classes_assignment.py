@@ -10,7 +10,7 @@ class Players(Sports): #Class Players inherists from sports and adds Players to 
 
 
 class Coaches(Sports): #Class Coaches inherists from sports and adds Players to the class with its own attributes
-    Firing_Frequency: 'high'
-    Diversity: 'very low'
+    Firing_Frequency = 'high'
+    Diversity = 'very low'
 
 
