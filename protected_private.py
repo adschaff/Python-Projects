@@ -20,3 +20,4 @@ obj.setPrivate(45)
 obj.getPrivate()
 obj._protectedVar = 8 
 
+th
