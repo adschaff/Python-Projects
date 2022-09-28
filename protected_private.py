@@ -1,11 +1,6 @@
-
-#Create an object that makes use of protected and private.
-#Add comments throughout your Python explaining your code.
-
-
-class Protected2: ##protected attribute
+class Protected: #private class
     def __init__(self):
-        self.__privateVar = 9 
+        self.__privateVar = 12
 
     def getPrivate(self): ##private attribute
         print(self.__privateVar)
@@ -13,8 +8,17 @@ class Protected2: ##protected attribute
     def setPrivate(self, private): 
         self.__privateVar = private
 
-
-obj = Protected2 () #object that makes use of protected and private 
+obj = Protected()
 obj.getPrivate()
 obj.setPrivate(45)
 obj.getPrivate()
+
+
+class Protected: #protected class
+    def __init__(self):
+        self._protectedVar = 0 #protected attribute
+
+
+obj = Protected()
+obj._protectedVar = 8 #object that makes use of protected 
+print(obj._protectedVar)
