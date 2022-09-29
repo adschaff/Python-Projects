@@ -8,7 +8,6 @@ class Protected: #private class
     def setPrivate(self, private): 
         self.__privateVar = private
 
-     def __init__(self):
         self._protectedVar = 0 #protected attribute
         print(obj._protectedVar)
 
@@ -20,4 +19,3 @@ obj.setPrivate(45)
 obj.getPrivate()
 obj._protectedVar = 8 
 
-th
